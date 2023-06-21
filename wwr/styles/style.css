@@ -258,8 +258,45 @@ footer {
     align-items: center;
 }
 
+/*this is a css for the FAQ page*/
 
+.dropbtn:hover {
+    background-color: #ffffff;
+    color: #2596be;
+    text-decoration: underline;}
 
+.image4fun {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+.h2faq1 {
+    font-family: "Fugaz One", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 0; 
+    background-color: #2596be;   
+}
+
+.dropbtn{ font-family: "Fugaz One", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 0;  
+    cursor: pointer;
+
+}
+.dropdown{
+    color: #2596be; 
+
+}
+
+footer {
+    background-color: #06d6a0;
+    color: #2596be;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 60px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
