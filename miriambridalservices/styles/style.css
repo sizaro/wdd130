@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap');
+.content {
+    max-width: 1600px; 
+    margin: 0 auto;
+    font-family: "lobster family", "Playfair Display", Arial, Helvetica, sans-serif; 
+    font-size: 22px;
+    color:#ffffff;
+    background-color: #644b33;
+}
+
+
+#header {
+    display: grid;
+    grid-template-columns: 50px auto;
+    background-color: #541c36;
+    
+    
+}
+
+#header ul li a {
+    text-decoration: none;
+}
+
+.pemail a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#home1 {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+}
+#home2 {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+    
+}
+
+#home2 a {
+    text-decoration: none;
+}
+h2 {
+    font-family: "lobster";
+    text-align: center;
+    font-size: 40px;
+    color: #541c36;
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.7);
+
+}
+h3  {
+    font-family: "lobster";
+    text-align: center;
+    font-size: 40px;
+    color: #541c36;
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.7);
+}
+.email {
+    text-decoration-color: #ffffff;
+}
+
+p {
+    font-family: "playfair display";
+    text-align: center;
+    margin: 10px;
+}
+/*#contain {
+    display: flex;
+    padding: 25px 50px;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-round;
+    gap: 40px;*/
+
+
+#contain {display: grid;
+    grid-template-columns:100px auto;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    grid-auto-flow: column;
+    text-decoration: none;
+}
+
+
+#contain2 {display: grid;
+    grid-template-columns:180px auto;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    grid-auto-flow: column;
+    background-color: #541c36;
+}
+
+/*.right{
+   white-space: nowrap;
+   overflow: hidden;
+}*/
+
+.right {
+    width: 190px;
+}
+
+.hpimg1 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+}
+
+#logoimg {
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+li:hover{
+    background-color: #541c36;
+}
+
+@media screen and (max-width:900px) {
+    .content { 
+        display: block;
+        font-family: "lobster family", "Playfair Display", Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        color:#ffffff;
+        background-color: #644b33;
+    }
+
+    #header {
+        display: block;
+
+    }
+
+    #logoimg {
+        width: 100%;
+        height: auto;
+    }
+
+    #contain2 {display: block;
+        list-style-type: none;
+        align-items: center;
+        grid-auto-flow: column;
+        margin: auto;
+        text-align: center;
+    
+        
+    }
+
+    #home2 {
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 20px;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #home1 {
+        background-color: #ffffff;
+        padding: 7px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-right: auto;
+    
+    }
+    .list2 {
+        margin-right: 100px;
+    }
+
+    .right {
+        width: 500px;
+        display: flex;
+        margin-left: 120px;
+    }
+
+    p {
+        font-family: "playfair Display";
+        text-align: center;
+    }
+
+    h2 {
+        font-family: "lobster";
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+}
