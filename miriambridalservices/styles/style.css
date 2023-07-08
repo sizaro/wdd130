@@ -26,19 +26,19 @@
     text-decoration: none;
 }
 
-#home1 {
+.home1 {
     background-color: #ffffff;
     padding: 7px;
     border-radius: 20px;
 }
-#home2 {
+.home2 {
     background-color: #ffffff;
     padding: 7px;
     border-radius: 20px;
     
 }
 
-#home2 a {
+.home2 a {
     text-decoration: none;
 }
 h2 {
@@ -97,10 +97,12 @@ p {
 
 #contain li {
     transition: transform 0.3s;
+    background-color: #ffffff;
   }
   
-#contain li:hover {
+#contain li:hover  {
     transform: scale(1.1);
+
   }
 
 #contain2 div {
@@ -117,6 +119,7 @@ p {
 
 .right {
     width: 190px;
+    color: #ffffff;
 }
 
 .hpimg1 {
@@ -126,6 +129,12 @@ p {
     margin: 20px auto;
 }
 
+.firstimg {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+}
 #logoimg {
     width: 100px;
     height: auto;
