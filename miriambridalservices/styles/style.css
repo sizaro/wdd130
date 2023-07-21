@@ -98,13 +98,16 @@ p {
 #contain li {
     transition: transform 0.3s;
     background-color: #ffffff;
-  }
+}
   
 #contain li:hover  {
     transform: scale(1.1);
 
   }
-
+  
+.icon2 img:hover {
+    transform: scale(1.2);
+  }
 #contain2 div {
     transition: transform 0.3s;
   }
@@ -325,7 +328,7 @@ ol li {
 }
 
 
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
     .content { 
         display: block;
         font-family: "lobster family", "Playfair Display", Arial, Helvetica, sans-serif; 
@@ -407,6 +410,184 @@ ol li {
         width: 250px;
         display: flex;
         margin-left: 120px;
+    }
+
+    p {
+        font-family: "playfair Display";
+        text-align: center;
+    }
+
+    h2 {
+        font-family: "lobster";
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+
+        /*this is the css for the flip card*/
+    .flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Adjust the perspective value as desired */
+    margin: 0 auto; /* Center horizontally */
+    perspective: 1000px; /* Adjust as desired */
+    }
+
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    }
+
+
+
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    }
+
+    .flip-card-back {
+    background-color: #541c36;
+    color: white;
+    transform: rotateY(180deg);
+    }
+    .flip-center1 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .flip-center2 {
+        font-size: 30px;
+    }
+
+    .flip-center3 {
+        font-size: 25px;
+    }
+    .miriamimg {
+    width: 350px;
+    height: 300px;
+    object-fit: cover; /* Adjust the object-fit value as desired */
+    display: block; /* Center horizontally */
+    margin: 0 auto; /* Center horizontally */
+    }
+
+
+}
+
+
+@media screen and (max-width:767px){
+
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    .content { 
+        display: grid;
+        grid-template-columns: repeat(1fr, 6); /* Create one column with a flexible width */
+        gap: 10px; 
+        font-family: "lobster family", "Playfair Display", Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        color:#ffffff;
+        background-color: #644b33;
+    }
+
+    .content {
+        width: 100%;
+    }
+    
+
+    #header {
+        display: block;
+
+    }
+
+    #logoimg {
+        width:100%;
+        height: auto;
+    }
+
+    #contain2 {display: block;
+        list-style-type: none;
+        align-items: center;
+        grid-auto-flow: column;
+        margin:0 auto;
+        text-align: center;
+    
+        
+    }
+
+    .home2 {
+        padding: 0;
+        background-color: #541c36;
+    
+    }
+
+    .home2 a{
+        color: #ffffff;
+        text-decoration: underline;
+       
+        
+
+
+    }
+
+    .home1 {
+    
+        background-color: #541c36;
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    
+    
+    }
+
+    #contain li {
+        color:#541c36;
+        background-color: #541c36;
+        
+    }
+
+    .home1 a {
+        color: #ffffff;
+    }
+    .hpimg1 {
+        width: 350px;
+        height: auto;
+    }
+
+    .firstimg {
+        width: 350px;
+        height: auto;
+    }
+
+
+    .list2 {
+        margin-right: 100px;
+    }
+
+    .right {
+        width: 250px;
+        display: flex;
+        margin-left: 32%;
     }
 
     p {
