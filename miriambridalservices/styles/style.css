@@ -498,7 +498,7 @@ ol li {
 
     html, body {
         padding: 0;
-        margin: 0;
+        margin: 1%;
         
     }
     .content { 
@@ -544,6 +544,10 @@ ol li {
         padding: 0;
         background-color: #541c36;
     
+    }
+
+    .home2 div{
+        text-align: center;
     }
 
     .home2 a{
@@ -592,7 +596,7 @@ ol li {
     .right {
         width: 250px;
         display: flex;
-        margin-left: 32%;
+        margin: 0 auto;
     }
 
     p {
