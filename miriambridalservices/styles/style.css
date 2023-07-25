@@ -279,7 +279,7 @@ ol li {
         align-items: center;
         grid-auto-flow: column;
         text-decoration: none;
-        grid-gap: 15%;
+        grid-gap: 10%;
     }
 
     .home2 {
