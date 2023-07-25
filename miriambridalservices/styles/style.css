@@ -250,6 +250,7 @@ ol li {
 
     }
 
+
     #logoimg {
         width:100%;
         height: auto;
@@ -272,12 +273,13 @@ ol li {
     }
 
     #contain {display: grid;
-        grid-template-columns:60px auto;
+        grid-template-columns: auto;
         list-style-type: none;
         justify-content: space-around;
         align-items: center;
         grid-auto-flow: column;
         text-decoration: none;
+        grid-gap: 15%;
     }
 
     .home2 {
